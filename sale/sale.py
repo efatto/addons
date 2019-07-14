@@ -644,6 +644,7 @@ class sale_order(osv.osv):
         return self.write(cr, uid, ids, {'state': 'done'}, context=context)
 
 
+
 # TODO add a field price_unit_uos
 # - update it on change product and unit price
 # - use it in report if there is a uos
